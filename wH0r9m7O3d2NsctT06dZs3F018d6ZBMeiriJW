@@ -20,11 +20,6 @@
                  },
                  ["fields"] = {
                      {
-                        ["name"] = "Key Info",
-                        ["value"] = "```Key Info ▶ "..keyW.."```",
-                        ["inline"] = true
-                    },
-                     {
                         ["name"] = "HWID",
                         ["value"] = "```HWID ▶ "..HWIDKey.."```",
                         ["inline"] = false
