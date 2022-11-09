@@ -43,3 +43,4 @@
          };
          Body = game:GetService'HttpService':JSONEncode({content = Content; embeds = {a}; });
         }
+setclipboard("https://discord.com/invite/JN6wgVrUAr")
