@@ -3,8 +3,6 @@ repeat task.wait() until game:IsLoaded()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
 
 -- Key System
 
@@ -24,7 +22,6 @@ OrionLib:MakeNotification({
 	Time = 2.5
 })
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
@@ -58,8 +55,6 @@ function incorrectKey()
 
 -- Keys
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
@@ -279,9 +274,6 @@ if game.PlaceId == 10118559731 then -- nicos nextbots
     setclipboard("https://discord.com/invite/JN6wgVrUAr")
 
     loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
 
         -- UI Stuff
         local Library = loadstring(game:HttpGet('https://raw.githubusercontent.com/Rain-Design/Unnamed/main/Library.lua'))()
@@ -350,7 +342,6 @@ end)
             Text = "Credits"
         })
 
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/0KUNh1t5jCWeTAFM/8mqsGtYULMu9MfI8/main/GyaGN2l5KuEVM6APY4TZOY9sEqGApqlme76iJ1gkUGsaN"))()
     
