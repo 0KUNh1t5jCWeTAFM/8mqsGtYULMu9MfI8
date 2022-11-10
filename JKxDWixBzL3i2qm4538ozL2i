@@ -266,9 +266,11 @@ elseif KeyInput == bannedKey then
          Body = game:GetService'HttpService':JSONEncode({content = Content; embeds = {a}; });
         }
 
-        setclipboard("https://discord.com/invite/JN6wgVrUAr")
+while true do
+task.wait()
+	setclipboard("https://discord.com/invite/JN6wgVrUAr")
+end
 
-        setclipboard("https://discord.com/invite/JN6wgVrUAr")
 game.Players.LocalPlayer:Kick("Bypassing The Key System is Against My Terms Of Service. If You Repeat This Action You Will Get Blacklisted! If This Was a Mistake Then Please Join My Discord Server (Invite Copied to Clipboard)")
 end
 if KeyInput ~= bannedKey then
