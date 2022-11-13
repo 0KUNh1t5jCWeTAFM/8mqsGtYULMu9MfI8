@@ -63,8 +63,8 @@ EzESP.Title = function(obj,maincolor,textcolor,transparency,tab)
     for k,v in pairs(tab) do
         Count = Count + 1
     end
-    Title.Size = Vector2.new(200,Count * 20)
-    local Offset = 0.2 * Count
+    Title.Size = Vector2.new(100,Count * 20)
+    local Offset = 0.1 * Count
     Title.Visible = true
     Title.Transparency = transparency
     local Properties = {}
