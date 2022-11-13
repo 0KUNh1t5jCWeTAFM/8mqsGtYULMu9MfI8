@@ -4,7 +4,7 @@
 
 --// Container
 
-local EzESP = {}
+getgenv().EzESP = {}
 
 --// Internal stuff
 
@@ -14,7 +14,7 @@ EzESP.__Internals.Camera = workspace.CurrentCamera
 EzESP.__Internals.Screen = EzESP.__Internals.Camera.ViewportSize
 EzESP.__Internals.Bottom = Vector2.new(EzESP.__Internals.Screen.X/2,EzESP.__Internals.Screen.Y)
 EzESP.__Internals.GetPoint = function(vector)
-    local Position,OnScreen = EzESP.__Internals.Camera:WorldToScreenPoint(vector)
+    getgenv().Position,OnScreen = EzESP.__Internals.Camera:WorldToScreenPoint(vector)
     return {Vector2.new(Position.X,Position.Y),OnScreen,Position.Z}
 end
 
@@ -24,14 +24,14 @@ EzESP.Tracer = function(obj,color,thickness)
     assert(typeof(obj)=="Instance","EzESP.Tracer | Expected Instance as argument #1")
     assert(typeof(color)=="Color3","EzESP.Tracer | Expected Color3 as argument #2")
     assert(type(thickness)=="number","EzESP.Tracer | Expected Number as argument #3")
-    local Tracer = Drawing.new("Line")
+    getgenv().Tracer = Drawing.new("Line")
     Tracer.Transparency = 1
     Tracer.Visible = false
     Tracer.From = EzESP.__Internals.Bottom
     Tracer.Color = color
     Tracer.Thickness = thickness
-    local Render = EzESP.__Internals.RunService.RenderStepped:Connect(function()
-        local Point = EzESP.__Internals.GetPoint(obj.Position)
+    getgenv().Render = EzESP.__Internals.RunService.RenderStepped:Connect(function()
+        getgenv().Point = EzESP.__Internals.GetPoint(obj.Position)
         Tracer.To = Point[1]
         Tracer.Visible = Point[2]
     end)
@@ -41,7 +41,7 @@ EzESP.Tracer = function(obj,color,thickness)
             Tracer:Remove()
         end
     end)
-    local TracerObject = setmetatable({},{__tostring=function()return"Tracer"end})
+    getgenv().TracerObject = setmetatable({},{__tostring=function()return"Tracer"end})
     function TracerObject:Remove()
         Render:Disconnect()
         Tracer:Remove()
@@ -55,24 +55,24 @@ EzESP.Title = function(obj,maincolor,textcolor,transparency,tab)
     assert(typeof(textcolor)=="Color3","EzESP.Title | Expected Color3 as argument #3")
     assert(typeof(transparency)=="number","EzESP.Title | Expected Number as argument #4")
     assert(typeof(tab)=="table","EzESP.Title | Expected Table as argument #5")
-    local Title = Drawing.new("Square")
+    getgenv().Title = Drawing.new("Square")
     Title.Filled = true
     Title.Color = maincolor
     Title.Thickness = 1
-    local Count = 0 -- Hacky method since # wasn't working for some reason
+    getgenv().Count = 0 -- Hacky method since # wasn't working for some reason
     for k,v in pairs(tab) do
         Count = Count + 1
     end
-    Title.Size = Vector2.new(100,Count * 20)
-    local Offset = 0.1 * Count
+    Title.Size = Vector2.new(200,Count * 20)
+    getgenv().Offset = 0.2 * Count
     Title.Visible = true
     Title.Transparency = transparency
-    local Properties = {}
-    local i = 0
+    getgenv().Properties = {}
+    getgenv().i = 0
     for k=1,Count do -- Sorts in order instead of randomly
-        local v=tab[k]
-        local Distance = i * 16
-        local Text = Drawing.new("Text")
+        getgenv().v=tab[k]
+        getgenv().Distance = i * 16
+        getgenv().Text = Drawing.new("Text")
         Text.Color = textcolor
         Text.Center = true
         Text.Size = 20
@@ -80,11 +80,11 @@ EzESP.Title = function(obj,maincolor,textcolor,transparency,tab)
         Properties[k] = {["Distance"] = Distance,["Object"]=Text,["ActualObject"]=v.Object,["OutOf"]=v.OutOf,["Property"]=v.Property}
         i = i + 1     
     end
-    local Render = EzESP.__Internals.RunService.RenderStepped:Connect(function()
-        local Point = EzESP.__Internals.GetPoint(obj.Position + Vector3.new(0,2+Offset,0))
+    getgenv().Render = EzESP.__Internals.RunService.RenderStepped:Connect(function()
+        getgenv().Point = EzESP.__Internals.GetPoint(obj.Position + Vector3.new(0,2+Offset,0))
         Title.Position = Point[1] - Vector2.new(Title.Size.X / 2,0)
         Title.Visible = Point[2]
-        local Biggest = 0
+        getgenv().Biggest = 0
         for k,v in pairs(Properties) do
             v.Object.Visible = Point[2]
             v.Object.Position = Point[1] + Vector2.new(0,v.Distance)
@@ -113,7 +113,7 @@ EzESP.Title = function(obj,maincolor,textcolor,transparency,tab)
             end
         end
     end)
-    local TitleObject= setmetatable({},{__tostring=function()return"Title"end})
+    getgenv().TitleObject= setmetatable({},{__tostring=function()return"Title"end})
     function TitleObject:Remove()
         Render:Disconnect()
         Title:Remove()
